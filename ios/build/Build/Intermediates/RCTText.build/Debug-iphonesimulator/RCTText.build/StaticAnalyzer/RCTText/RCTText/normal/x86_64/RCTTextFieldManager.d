@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/jessica/Projects/DemoApp/node_modules/react-native/Libraries/Text/RCTTextFieldManager.m \
+  /Users/jessica/Projects/DemoApp/node_modules/react-native/Libraries/Text/RCTTextFieldManager.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFont.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/jessica/Projects/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/jessica/Projects/DemoApp/node_modules/react-native/Libraries/Text/RCTConvert+Text.h \
+  /Users/jessica/Projects/DemoApp/node_modules/react-native/Libraries/Text/RCTShadowTextField.h \
+  /Users/jessica/Projects/DemoApp/node_modules/react-native/Libraries/Text/RCTTextField.h

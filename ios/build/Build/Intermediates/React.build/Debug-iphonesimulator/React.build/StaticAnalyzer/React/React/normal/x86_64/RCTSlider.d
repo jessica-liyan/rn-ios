@@ -1,0 +1,4 @@
+dependencies: \
+  /Users/jessica/Projects/DemoApp/node_modules/react-native/React/Views/RCTSlider.m \
+  /Users/jessica/Projects/DemoApp/node_modules/react-native/React/Views/RCTSlider.h \
+  /Users/jessica/Projects/DemoApp/node_modules/react-native/React/Views/RCTComponent.h
