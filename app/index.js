@@ -18,6 +18,8 @@ import ReadPage from './page/ReadPage'
 import MoviePage from './page/MoviePage'
 import MusicPage from './page/MusicPage'
 import MovieDetail from './component/MovieDetail'
+import MovieListTab from './component/MovieListTab'
+import MovieTopTab from './component/MovieTopTab'
 import SearchItem from './component/SearchItem'
 import TabIcon1 from './component/TabIcon1'
 import TabIcon2 from './component/TabIcon2'
@@ -46,7 +48,7 @@ export default class App extends Component {
   }
   render () {
     return (
-      <View style={{flex:1,backgroundColor:'#fff'}}>
+      <View style={{flex:1,backgroundColor:'#f5f5f5'}}>
         <StatusBar
           animated={true}
           hidden={false}
@@ -87,7 +89,8 @@ export default class App extends Component {
                 tabBarStyle={{backgroundColor:'#f5f5f5'}} inactiveTintColor='#999' 
                 activeTintColor='red'  
                 duration={0}
-              />
+              >
+              </Scene>
               <Scene 
                 key="moviePage" 
                 component={MoviePage} 
@@ -108,16 +111,35 @@ export default class App extends Component {
                 default="ios-home-outline"
                 active="ios-home" 
                 onRight={() => Actions.search({type: 'music'})} 
-                rightButtonImage={require('./image/search.png')}  rightButtonIconStyle={styles.searchButton} 
+                rightButtonImage={require('./image/search.png')}  
+                rightButtonIconStyle={styles.searchButton} 
               />
             </Scene>
             <Scene key="search" component={SearchItem} title="search" hideNavBar>
             </Scene>
             <Scene 
               key="MovieDetail" 
-              component={MovieDetail} 
-              backTitle=""
-            >
+              title="电影"
+              backButtonImage={require('./image/back.png')} 
+              navigationBarStyle={{backgroundColor: '#333'}} 
+              titleStyle={{color:'#fff'}} 
+              component={MovieDetail}>
+            </Scene>
+            <Scene 
+              key="MovieListTab" 
+              title="电影"
+              backButtonImage={require('./image/back.png')} 
+              navigationBarStyle={{backgroundColor: '#333'}} 
+              titleStyle={{color:'#fff'}} 
+              component={MovieListTab}>
+            </Scene>
+            <Scene 
+              key="MovieTopTab" 
+              title="电影"
+              backButtonImage={require('./image/back.png')} 
+              navigationBarStyle={{backgroundColor: '#333'}} 
+              titleStyle={{color:'#fff'}} 
+              component={MovieTopTab}>
             </Scene>
           </Scene>
         </Router>
@@ -136,9 +158,12 @@ export default class App extends Component {
       titleStyle  navigationBarStyle
 
       navigationBarTitleImage  navigationBarTitleImageStyle
+      navigationBarStyle(高度，背景色)
 
       tabs  hideNavBar(顶部导航)  hideTabBar(标签页)
       tabBarLabel  tabBarIcon  tabBarStyle
+
+      问题：navi的背景色如果是rgba的话，跟header同样的rgba有色差
    */ 
 
 

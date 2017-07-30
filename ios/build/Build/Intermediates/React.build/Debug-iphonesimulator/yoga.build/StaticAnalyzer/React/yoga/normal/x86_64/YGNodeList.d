@@ -1,6 +1,3 @@
 dependencies: \
-  /Users/jessica/Projects/DemoApp/node_modules/react-native/ReactCommon/yoga/yoga/YGNodeList.c \
-  /Users/jessica/Projects/DemoApp/node_modules/react-native/ReactCommon/yoga/yoga/YGNodeList.h \
-  /Users/jessica/Projects/DemoApp/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
-  /Users/jessica/Projects/DemoApp/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
-  /Users/jessica/Projects/DemoApp/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h
+  /Users/jessica/react/rn-ios/node_modules/react-native/ReactCommon/yoga/yoga/YGNodeList.c \
+  /Users/jessica/react/rn-ios/node_modules/react-native/ReactCommon/yoga/yoga/YGNodeList.h

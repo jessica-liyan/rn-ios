@@ -13,7 +13,6 @@ import {
 import {Actions} from 'react-native-router-flux';
 import Icon from 'react-native-vector-icons/Ionicons'
 import BookItem from './BookItem'
-import MovieItem from './MovieItem'
 import fetchItem from '../api/index'
 
 export default class SearchItem extends Component {
